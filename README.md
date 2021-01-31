@@ -12,12 +12,15 @@ Zhuoyan Li | parker-1212
 Jackey Weng | CSman22 
 James Mariotti-Lapointe | HalloweenTown 
 
-## 2. Languages & Techniques Used (Planned)
+## 2.Description of the Project 
+Since Social Media has now become a distinct part of our lives, this project includes the development of a web application which is similar to the pre-existing social media platform "Instagram". The main features of this application is going to be the ability of the users to post pictures, leave comments on these pictures and follow other users on the application as well.
+
+## 3. Languages & Techniques Used (Planned)
 ### **Front End**
-- React, TBD
+- CSS, HTML, Javascript (React Native)
 
 ### **Back End**
-- TBD
+- Laravel, Javascript, Php,or python, (Firebase?), MySQL, SQL
 
 ### **UI design**
 - Wire frame tools
@@ -46,6 +49,6 @@ James Mariotti-Lapointe | HalloweenTown
 
 ## 3. Features
 ### **Core Features**
-- Allow user to post a picture with text description
-- Allow user to following another user
-- Allow user to leave a comment for a picture that was posted
+- Allow users to post a picture with text description
+- Allow users to follow another user
+- Allow users to leave a comment for a picture that was posted
