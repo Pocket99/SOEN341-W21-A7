@@ -1,7 +1,9 @@
 import React, {useState}    from 'react';
 import '../style/UserPage.css';
+import '../style/App.css';
 import Post	                from '../components/Post';
 import Profile              from '../components/Profile';
+import Navbar               from '../components/Navbar';
 import fakestagram          from '../image/fakestagram_logo.jpg'
 
 function UserPage() {
@@ -26,13 +28,17 @@ function UserPage() {
     ]);
 
     return (
+       
         <div className="userpage">
+             <Navbar/>
             <div className="userpage__header">
 {/*                 <img
                     className ="userpage__headerImage" 
                     src = "https://www.transparentpng.com/thumb/logo-instagram/EvWlA1-logo-instagram-transparent-picture.png"
                  /> */}
-                 fakestagram
+                  <div className="logoFont">
+                    Fakestagram
+                </div>
             </div>
             <div className = "userpage__profile">
                 <Profile profilename = "Main profile" profilequote = "Electrical Engineering: Peace be amplified, world be rectified. Electrical Engineers: No resistance can drop our potential. Electrical Engineers: We step up, We Transform. Ere long intelligence—transmitted without wires—will throb through the earth like a pulse through a living organism." />
